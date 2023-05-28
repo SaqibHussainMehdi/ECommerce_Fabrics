@@ -7,13 +7,13 @@ namespace ECommerce_Fabrics.Database.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class initDb : IMigrationMetadata
+    public sealed partial class InitDbFabrics : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(initDb));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitDbFabrics));
         
         string IMigrationMetadata.Id
         {
-            get { return "202305271740043_initDb"; }
+            get { return "202305280148373_InitDbFabrics"; }
         }
         
         string IMigrationMetadata.Source
