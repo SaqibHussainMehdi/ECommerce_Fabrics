@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce_Fabrics.Entities"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce_Fabrics.Database", "ECommerce_Fabrics.Database\ECommerce_Fabrics.Database.csproj", "{74DCF82D-F843-4750-91E0-2783F69DBAF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce_Fabrics.Web", "ECommerce_Fabrics.Web\ECommerce_Fabrics.Web.csproj", "{B8EE56C0-3362-4954-9D51-6C4F27B53958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce_Fabrics.Services", "ECommerce_Fabrics.Services\ECommerce_Fabrics.Services.csproj", "{27A50E1B-C2EB-4A5B-945A-E45635A84FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{74DCF82D-F843-4750-91E0-2783F69DBAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74DCF82D-F843-4750-91E0-2783F69DBAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74DCF82D-F843-4750-91E0-2783F69DBAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EE56C0-3362-4954-9D51-6C4F27B53958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EE56C0-3362-4954-9D51-6C4F27B53958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EE56C0-3362-4954-9D51-6C4F27B53958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EE56C0-3362-4954-9D51-6C4F27B53958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A50E1B-C2EB-4A5B-945A-E45635A84FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A50E1B-C2EB-4A5B-945A-E45635A84FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A50E1B-C2EB-4A5B-945A-E45635A84FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A50E1B-C2EB-4A5B-945A-E45635A84FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
