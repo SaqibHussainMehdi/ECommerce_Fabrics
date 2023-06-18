@@ -33,13 +33,34 @@ namespace ECommerce_Fabrics.Web.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            return View();
+            return PartialView();
         }
 
         [HttpPost]
         public ActionResult Create(Product product)
         {
             productsService.SaveProduct(product);
+            return RedirectToAction("ProcutsTable");
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+           var productrow=productsService.GetProductbyId(id);
+            return PartialView(productrow);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Product product)
+        {
+            productsService.updateproduct(product);
+            return RedirectToAction("ProcutsTable");
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            productsService.deleteproduct(id);
             return RedirectToAction("ProcutsTable");
         }
     }
